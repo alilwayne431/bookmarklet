@@ -1,59 +1,371 @@
+<div align="center">
+
 # ⚡ JavaScript Bookmarklet Collection
 
-A collection of powerful, browser-based automation tools for **Facebook, Instagram, Slack, and GitHub**. These scripts allow you to automate repetitive tasks, download media, and manage your social accounts directly from your browser—no extensions required.
+### Browser Automation • Bookmarklets • Productivity Tools • Media Downloaders
 
-## 🚀 How to Install
+<p>
+A curated collection of browser-based JavaScript bookmarklets for automating repetitive tasks, downloading media, enhancing workflows, and improving productivity across popular websites.
+</p>
 
-1.  **Copy the code** from the `.js` file you want to use.
-2.  **Create a new bookmark** in your browser (Chrome/Edge/Firefox).
-3.  **Name it** (e.g., "Insta Downloader").
-4.  **Paste the code** into the **URL** (or Address) field.
-5.  **Save** and click the bookmark while on the target website to activate.
+<br>
 
----
+![JavaScript](https://img.shields.io/badge/JavaScript-ES2023-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![MIT License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
+![Browser](https://img.shields.io/badge/Browser-Chrome%20%7C%20Edge%20%7C%20Firefox-4285F4?style=for-the-badge)
+![Bookmarklets](https://img.shields.io/badge/Bookmarklets-100%25-blueviolet?style=for-the-badge)
 
-## 🛠️ The Tools
-
-### 📸 Instagram: Universal Media Downloader
-**File:** `Instagram/Download_Image_&_Video.js`
-
-A smart downloader that bypasses Instagram's restrictions.
-* **Images:** Adds a ⬇ button to all posts (automatically grabs the highest resolution).
-* **Videos:** Adds a 🎥 button that "sniffs" your network traffic to find the direct MP4 link, bypassing encrypted blob streams.
-* **Live Interceptor:** Can detect video streams in real-time as you play them.
-
-### 📘 Facebook: Auto Friend Request Sender
-**File:** `Facebook/Bookmarklet_auto_send_friend_request.js`
-
-Automates the process of finding and adding friends.
-* **Auto-Scroll:** Automatically scrolls down to find new "Add Friend" buttons.
-* **Safety Limits:** Set to stop after 50 requests (configurable) to prevent account bans.
-* **Human-Like Delays:** Random wait times between clicks to avoid bot detection.
-
-### 💬 Slack: Hover Message Deleter
-**File:** `Slack/Hover_Delete.js`
-
-Clean up your message history with speed.
-* **UI:** Adds a floating "Hover Delete" toggle button.
-* **Action:** When ON, simply hover your mouse over a message for 1.2 seconds to delete it automatically.
-* **Draggable:** The button can be moved anywhere on the screen and stays within window bounds.
-
-### 🐙 GitHub: Star Repo Utility
-**File:** `Github/Star_repo.js`
-
-* Quickly automate starring/unstarring actions (or other GitHub specific utilities).
+</div>
 
 ---
 
-## ⚠️ Disclaimer & Safety
+# 📖 Table of Contents
 
-**Use these scripts at your own risk.**
-
-* **Rate Limits:** Social media platforms (especially Facebook and Instagram) have strict limits on how many actions you can perform in a short time. Using these tools too aggressively may result in temporary account restrictions.
-* **Privacy:** These scripts run locally in your browser. No data is sent to external servers.
+- [Features](#-features)
+- [Repository Structure](#-repository-structure)
+- [Getting Started](#-getting-started)
+- [Supported Platforms](#-supported-platforms)
+- [Featured Tools](#-featured-tools)
+- [Safety](#-safety)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
-## 📄 License
+# ✨ Features
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- ⚡ One-click browser bookmarklets
+- 🌐 Runs directly inside your browser
+- 🚀 No extensions required
+- ❤️ Automation for repetitive tasks
+- 📥 Media downloading utilities
+- 🧠 Smart UI overlays
+- 💼 Productivity enhancements
+- 🔍 OSINT helpers
+- 🛠 Lightweight and easy to customize
+- 📂 Organized by platform
+
+---
+
+# 📂 Repository Structure
+
+```text
+.
+├── CRM
+├── Daraz
+├── Facebook
+├── Github
+├── Instagram
+├── Medium
+├── OSINT
+├── Outside
+├── Pinterest
+├── Slack
+├── Webpage
+├── YouTube
+├── Call with Link one Liner.js
+├── GOD-MODE.js
+├── Godmode Tempermonkey Format.js
+├── LICENSE
+└── README.md
+```
+
+---
+
+# 🚀 Getting Started
+
+Bookmarklets are simple JavaScript programs that run directly from your browser's bookmarks.
+
+## Installation
+
+1. Open any `.js` file in this repository.
+2. Copy the entire contents.
+3. Create a new bookmark.
+4. Paste the code into the **URL** field.
+5. Save the bookmark.
+6. Visit the supported website.
+7. Click the bookmark.
+
+That's it.
+
+---
+
+# 🌍 Supported Platforms
+
+| Platform | Description |
+|-----------|-------------|
+| 📸 Instagram | Download media, automate interactions, smart utilities |
+| 📘 Facebook | Friend request automation, helpers |
+| 📌 Pinterest | Auto Heart, GUI tools |
+| 🐙 GitHub | Repository utilities |
+| 💬 Slack | Message management |
+| 🎥 YouTube | Creator workflow tools |
+| ✍️ Medium | Auto clap utilities |
+| 🛒 Daraz | Shopping helpers |
+| 💼 CRM | Internal productivity scripts |
+| 🔍 OSINT | Information gathering |
+| 🌐 Webpage | Universal browser utilities |
+| 📁 Outside | Miscellaneous experiments |
+
+---
+
+# ⭐ Featured Tools
+
+<details>
+
+<summary><strong>📸 Instagram</strong></summary>
+
+### Universal Downloader
+
+Download images and videos directly from Instagram.
+
+#### Features
+
+- High Resolution Images
+- Reel Downloader
+- Video Downloader
+- Story Support
+- Smart Network Detection
+- MP4 Extraction
+- Live Stream Detection
+
+</details>
+
+---
+
+<details>
+
+<summary><strong>📌 Pinterest</strong></summary>
+
+Automation utilities including
+
+- Auto Heart
+- Floating GUI
+- Bulk Reactions
+- Smart Detection
+
+</details>
+
+---
+
+<details>
+
+<summary><strong>📘 Facebook</strong></summary>
+
+Automation tools
+
+- Auto Friend Requests
+- Auto Scroll
+- Human-like Delays
+- Safety Limits
+- Bulk Interaction
+
+</details>
+
+---
+
+<details>
+
+<summary><strong>💬 Slack</strong></summary>
+
+Workspace productivity
+
+- Hover Delete
+- Floating Toggle
+- Draggable Interface
+- Delay Protection
+
+</details>
+
+---
+
+<details>
+
+<summary><strong>🐙 GitHub</strong></summary>
+
+Developer utilities
+
+- Star Repository
+- Repository Helpers
+- Productivity Scripts
+
+</details>
+
+---
+
+<details>
+
+<summary><strong>🎥 YouTube</strong></summary>
+
+Creator tools
+
+- Auto Channel Creator
+- Shortcuts
+- Workflow Automation
+
+</details>
+
+---
+
+<details>
+
+<summary><strong>✍️ Medium</strong></summary>
+
+Utilities
+
+- Auto Clap
+- Reading Helpers
+
+</details>
+
+---
+
+<details>
+
+<summary><strong>💼 CRM</strong></summary>
+
+Productivity bookmarklets for CRM systems.
+
+</details>
+
+---
+
+<details>
+
+<summary><strong>🔍 OSINT</strong></summary>
+
+Small utilities for reconnaissance and information gathering.
+
+</details>
+
+---
+
+<details>
+
+<summary><strong>🌐 Universal Browser Utilities</strong></summary>
+
+Includes
+
+- Better Scrolling
+- Page Manipulation
+- UI Helpers
+- General Productivity
+
+</details>
+
+---
+
+# 🛡 Safety
+
+These bookmarklets execute **entirely inside your browser**.
+
+No external servers are used by these scripts unless the website itself communicates with its own services.
+
+Always review scripts before running them.
+
+Some websites may detect excessive automation or enforce rate limits.
+
+Use responsibly.
+
+---
+
+# ⚠ Disclaimer
+
+This project is intended for educational, automation, and productivity purposes.
+
+Using these bookmarklets may violate the Terms of Service of certain websites.
+
+You are solely responsible for how you use these scripts.
+
+---
+
+# 🗺️ Roadmap
+
+- [x] Instagram Downloader
+- [x] Facebook Automation
+- [x] Pinterest Automation
+- [x] Slack Utilities
+- [x] GitHub Helpers
+- [x] Medium Tools
+- [x] CRM Scripts
+- [x] OSINT Utilities
+- [ ] Chrome Extension
+- [ ] Firefox Add-on
+- [ ] Documentation Website
+- [ ] Interactive Demo Gallery
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+You can help by:
+
+- Adding new bookmarklets
+- Improving existing scripts
+- Fixing bugs
+- Improving documentation
+- Suggesting new ideas
+
+Please open an **Issue** or submit a **Pull Request**.
+
+---
+
+# 📊 Repository Statistics
+
+| Category | Count |
+|-----------|------:|
+| Supported Platforms | 12+ |
+| JavaScript Files | 30+ |
+| Browser Support | Chrome • Edge • Firefox |
+| Installation | Bookmark |
+
+---
+
+# ❓ FAQ
+
+<details>
+<summary><strong>Do I need an extension?</strong></summary>
+
+No.
+
+Everything runs directly inside your browser using bookmarklets.
+
+</details>
+
+<details>
+<summary><strong>Are these scripts safe?</strong></summary>
+
+They execute locally inside your browser.
+
+Always inspect the code before using any bookmarklet.
+
+</details>
+
+<details>
+<summary><strong>Can I modify the scripts?</strong></summary>
+
+Absolutely.
+
+Feel free to customize them for your own workflow.
+
+</details>
+
+<details>
+<summary><strong>Do these work on every website?</strong></summary>
+
+No.
+
+Each script is built specifically for its intended platform.
+
+</details>
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+See the [LICENSE](LICENSE) file for complete details.
